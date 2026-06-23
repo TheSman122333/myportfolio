@@ -34,7 +34,7 @@
   <section id="skills" class="section">
     <h2 class="section-heading"><span class="section-index">01</span>Skills</h2>
     <div class="skills-grid">
-      <div class="skill-group">
+      <div class="skill-group reveal" style="transition-delay:0ms">
         <h3>Languages</h3>
         <ul>
           <li>TypeScript / JavaScript</li>
@@ -43,7 +43,7 @@
           <li>HTML &amp; CSS</li>
         </ul>
       </div>
-      <div class="skill-group">
+      <div class="skill-group reveal" style="transition-delay:60ms">
         <h3>Frontend &amp; Mobile</h3>
         <ul>
           <li>React &amp; Next.js</li>
@@ -51,7 +51,7 @@
           <li>Tailwind CSS</li>
         </ul>
       </div>
-      <div class="skill-group">
+      <div class="skill-group reveal" style="transition-delay:120ms">
         <h3>Backend &amp; Data</h3>
         <ul>
           <li>Supabase / Postgres</li>
@@ -59,7 +59,7 @@
           <li>REST &amp; third-party APIs</li>
         </ul>
       </div>
-      <div class="skill-group">
+      <div class="skill-group reveal" style="transition-delay:180ms">
         <h3>AI &amp; Automation</h3>
         <ul>
           <li>Agentic AI systems</li>
@@ -67,7 +67,7 @@
           <li>Multi-step tool-use agents</li>
         </ul>
       </div>
-      <div class="skill-group">
+      <div class="skill-group reveal" style="transition-delay:240ms">
         <h3>Robotics &amp; Integration</h3>
         <ul>
           <li>InMoov hardware builds</li>
@@ -76,7 +76,7 @@
           <li>Home Assistant</li>
         </ul>
       </div>
-      <div class="skill-group">
+      <div class="skill-group reveal" style="transition-delay:300ms">
         <h3>Tooling</h3>
         <ul>
           <li>Git &amp; GitHub</li>
@@ -91,7 +91,7 @@
     <h2 class="section-heading"><span class="section-index">02</span>Experience</h2>
     <div class="experience-list">
 
-      <article class="experience-item">
+      <article class="experience-item reveal" style="transition-delay:0ms">
         <div class="experience-meta">
           <span class="experience-tag">2 yrs</span>
         </div>
@@ -107,7 +107,7 @@
         </div>
       </article>
 
-      <article class="experience-item">
+      <article class="experience-item reveal" style="transition-delay:80ms">
         <div class="experience-meta">
           <span class="experience-tag">Robotics</span>
         </div>
@@ -123,7 +123,7 @@
         </div>
       </article>
 
-      <article class="experience-item">
+      <article class="experience-item reveal" style="transition-delay:160ms">
         <div class="experience-meta">
           <span class="experience-tag">Coursework</span>
         </div>
@@ -146,153 +146,194 @@
     <h2 class="section-heading"><span class="section-index">03</span>Projects</h2>
     <div class="projects-grid">
 
-      <article class="project-card project-featured">
-        <div class="project-head">
-          <h3>VITA</h3>
-          <span class="project-tag">Robotics · Healthcare Systems</span>
-        </div>
-        <p class="project-desc">
-          A physical InMoov i2Head derivative built to integrate with OpenEMR and Home Assistant,
-          forming a full hospital logistics system designed to assist nurses with patient care
-          and routine tasks.
-        </p>
-        <div class="project-footer">
-          <ul class="project-stack">
-            <li>InMoov i2Head</li>
-            <li>OpenEMR</li>
-            <li>Home Assistant</li>
-          </ul>
-          <a class="project-link" href="https://github.com/TheSman122333/VITAV2-Personal-Project" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-head">
-          <h3>MannV2</h3>
-          <span class="project-tag">Agentic AI · Windows</span>
-        </div>
-        <p class="project-desc">
-          An agentic AI system for Windows that reasons, plans, and acts across the desktop —
-          carrying out multi-step tasks without hand-holding at each step.
-        </p>
-        <div class="project-footer">
-          <ul class="project-stack">
-            <li>Agent loop</li>
-            <li>Tool use</li>
-            <li>Windows automation</li>
-          </ul>
-          <a class="project-link" href="https://github.com/TheSman122333/MannV2" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+      <article class="project-card project-featured reveal" style="transition-delay:0ms">
+        <figure class="project-media project-media-pair">
+          <img src="assets/vita1.jpg" alt="VITA InMoov i2Head robot, front view" loading="lazy" data-fallback="VITA">
+          <img src="assets/vita2.jpg" alt="VITA InMoov i2Head robot, internal mechanism" loading="lazy" data-fallback="VITA">
+        </figure>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>VITA</h3>
+            <span class="project-tag">Robotics · Healthcare Systems</span>
+          </div>
+          <p class="project-desc">
+            A physical InMoov i2Head derivative built to integrate with OpenEMR and Home Assistant,
+            forming a full hospital logistics system designed to assist nurses with patient care
+            and routine tasks.
+          </p>
+          <div class="project-footer">
+            <ul class="project-stack">
+              <li>InMoov i2Head</li>
+              <li>OpenEMR</li>
+              <li>Home Assistant</li>
+            </ul>
+            <a class="project-link" href="https://github.com/TheSman122333/VITAV2-Personal-Project" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+          </div>
         </div>
       </article>
 
-      <article class="project-card">
-        <div class="project-head">
-          <h3>did.it</h3>
-          <span class="project-tag">Next.js · Supabase</span>
-        </div>
-        <p class="project-desc">
-          A daily-challenge app: everyone gets the same prompt, submits a camera photo as proof,
-          and builds a streak. Includes a friends feed with claps, comments, and automated
-          community moderation, plus anonymous-first auth that upgrades in place.
-        </p>
-        <div class="project-footer">
-          <ul class="project-stack">
-            <li>Next.js 16 (App Router)</li>
-            <li>Supabase (Postgres + Storage)</li>
-            <li>Web Push</li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-head">
-          <h3>PaperOS</h3>
-          <span class="project-tag">Web App · Productivity</span>
-        </div>
-        <p class="project-desc">
-          A web-based organizing "OS" that brings tasks, notes, and schedules into one place —
-          built to keep students and workers on top of their day without juggling five apps.
-        </p>
-        <div class="project-footer">
-          <ul class="project-stack">
-            <li>Tasks</li>
-            <li>Notes</li>
-            <li>Schedules</li>
-          </ul>
-          <a class="project-link" href="https://github.com/TheSman122333/PaperOS" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+      <article class="project-card reveal" style="transition-delay:60ms">
+        <figure class="project-media project-media-text">
+          <span class="project-statement">MannV2: Moderated, Automated, Neural Network</span>
+        </figure>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>MannV2</h3>
+            <span class="project-tag">Agentic AI · Windows</span>
+          </div>
+          <p class="project-desc">
+            An agentic AI system for Windows that reasons, plans, and acts across the desktop —
+            carrying out multi-step tasks without hand-holding at each step.
+          </p>
+          <div class="project-footer">
+            <ul class="project-stack">
+              <li>Agent loop</li>
+              <li>Tool use</li>
+              <li>Windows automation</li>
+            </ul>
+            <a class="project-link" href="https://github.com/TheSman122333/MannV2" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+          </div>
         </div>
       </article>
 
-      <article class="project-card">
-        <div class="project-head">
-          <h3>StockView</h3>
-          <span class="project-tag">React Native · Expo</span>
-        </div>
-        <p class="project-desc">
-          A stock signal app with voice and text search. Pulls live data from Yahoo Finance
-          and classifies each ticker as bullish, bearish, or neutral, then reads the result aloud.
-        </p>
-        <div class="project-footer">
-          <ul class="project-stack">
-            <li>Expo SDK 52</li>
-            <li>expo-speech-recognition</li>
-            <li>Yahoo Finance API</li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-head">
-          <h3>Ink Vault</h3>
-          <span class="project-tag">React Native · Expo · SQLite</span>
-        </div>
-        <p class="project-desc">
-          A local-first journal and goal-streak tracker with an E-ink visual aesthetic —
-          grayscale palette, serif type, no animation. Combines a daily log, named goals,
-          and a calendar archive, with everything stored on-device.
-        </p>
-        <div class="project-footer">
-          <ul class="project-stack">
-            <li>Expo SDK 55</li>
-            <li>expo-sqlite + Drizzle</li>
-            <li>Zustand</li>
-          </ul>
+      <article class="project-card reveal" style="transition-delay:120ms">
+        <figure class="project-media">
+          <img src="assets/didit.png" alt="did.it today's challenge screen" loading="lazy" data-fallback="did.it">
+        </figure>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>did.it</h3>
+            <span class="project-tag">Next.js · Supabase</span>
+          </div>
+          <p class="project-desc">
+            A daily-challenge app: everyone gets the same prompt, submits a camera photo as proof,
+            and builds a streak. Includes a friends feed with claps, comments, and automated
+            community moderation, plus anonymous-first auth that upgrades in place.
+          </p>
+          <div class="project-footer">
+            <ul class="project-stack">
+              <li>Next.js 16 (App Router)</li>
+              <li>Supabase (Postgres + Storage)</li>
+              <li>Web Push</li>
+            </ul>
+          </div>
         </div>
       </article>
 
-      <article class="project-card">
-        <div class="project-head">
-          <h3>Rizzup</h3>
-          <span class="project-tag">AI · Game</span>
-        </div>
-        <p class="project-desc">
-          A lighthearted game that puts your "rizz" to the test against an AI chatbot —
-          see how far your charm actually gets you.
-        </p>
-        <div class="project-footer">
-          <ul class="project-stack">
-            <li>Chat-based</li>
-            <li>AI judged</li>
-          </ul>
-          <a class="project-link" href="https://github.com/TheSman122333/rizzup" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+      <article class="project-card reveal" style="transition-delay:180ms">
+        <figure class="project-media">
+          <img src="assets/paperos.png" alt="PaperOS desktop screenshot showing sticky notes and a calendar widget" loading="lazy" data-fallback="PaperOS">
+        </figure>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>PaperOS</h3>
+            <span class="project-tag">Web App · Productivity</span>
+          </div>
+          <p class="project-desc">
+            A web-based organizing "OS" that brings tasks, notes, and schedules into one place —
+            built to keep students and workers on top of their day without juggling five apps.
+          </p>
+          <div class="project-footer">
+            <ul class="project-stack">
+              <li>Tasks</li>
+              <li>Notes</li>
+              <li>Schedules</li>
+            </ul>
+            <a class="project-link" href="https://github.com/TheSman122333/PaperOS" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+          </div>
         </div>
       </article>
 
-      <article class="project-card">
-        <div class="project-head">
-          <h3>The Reflex Game</h3>
-          <span class="project-tag">Game · Typing</span>
+      <article class="project-card reveal" style="transition-delay:240ms">
+        <figure class="project-media">
+          <img src="assets/stockview.png" alt="StockView app screenshot showing an AAPL signal" loading="lazy" data-fallback="SV">
+        </figure>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>StockView</h3>
+            <span class="project-tag">React Native · Expo</span>
+          </div>
+          <p class="project-desc">
+            A stock signal app with voice and text search. Pulls live data from Yahoo Finance
+            and classifies each ticker as bullish, bearish, or neutral, then reads the result aloud.
+          </p>
+          <div class="project-footer">
+            <ul class="project-stack">
+              <li>Expo SDK 52</li>
+              <li>expo-speech-recognition</li>
+              <li>Yahoo Finance API</li>
+            </ul>
+          </div>
         </div>
-        <p class="project-desc">
-          A fast-paced typing game built to sharpen reaction speed and short-term memory,
-          one round at a time.
-        </p>
-        <div class="project-footer">
-          <ul class="project-stack">
-            <li>Speed</li>
-            <li>Short-term memory</li>
-          </ul>
-          <a class="project-link" href="https://github.com/TheSman122333/thereflexgame" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+      </article>
+
+      <article class="project-card reveal" style="transition-delay:300ms">
+        <figure class="project-media">
+          <img src="assets/inkvault.png" alt="Ink Vault logo mark" loading="lazy" data-fallback="IV">
+        </figure>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>Ink Vault</h3>
+            <span class="project-tag">React Native · Expo · SQLite</span>
+          </div>
+          <p class="project-desc">
+            A local-first journal and goal-streak tracker with an E-ink visual aesthetic —
+            grayscale palette, serif type, no animation. Combines a daily log, named goals,
+            and a calendar archive, with everything stored on-device.
+          </p>
+          <div class="project-footer">
+            <ul class="project-stack">
+              <li>Expo SDK 55</li>
+              <li>expo-sqlite + Drizzle</li>
+              <li>Zustand</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="transition-delay:360ms">
+        <figure class="project-media">
+          <img src="assets/rizzup.png" alt="Rizzup chat interface screenshot" loading="lazy" data-fallback="Rizzup">
+        </figure>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>Rizzup</h3>
+            <span class="project-tag">AI · Game</span>
+          </div>
+          <p class="project-desc">
+            A lighthearted game that puts your "rizz" to the test against an AI chatbot —
+            see how far your charm actually gets you.
+          </p>
+          <div class="project-footer">
+            <ul class="project-stack">
+              <li>Chat-based</li>
+              <li>AI judged</li>
+            </ul>
+            <a class="project-link" href="https://github.com/TheSman122333/rizzup" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="transition-delay:420ms">
+        <figure class="project-media">
+          <img src="assets/thereflexgame.png" alt="The Reflex Game gameplay screenshot" loading="lazy" data-fallback="Reflex">
+        </figure>
+        <div class="project-body">
+          <div class="project-head">
+            <h3>The Reflex Game</h3>
+            <span class="project-tag">Game · Typing</span>
+          </div>
+          <p class="project-desc">
+            A fast-paced typing game built to sharpen reaction speed and short-term memory,
+            one round at a time.
+          </p>
+          <div class="project-footer">
+            <ul class="project-stack">
+              <li>Speed</li>
+              <li>Short-term memory</li>
+            </ul>
+            <a class="project-link" href="https://github.com/TheSman122333/thereflexgame" target="_blank" rel="noopener noreferrer">View repo &rarr;</a>
+          </div>
         </div>
       </article>
 
@@ -303,7 +344,7 @@
     <h2 class="section-heading"><span class="section-index">04</span>Hackathons</h2>
     <div class="hackathons-list">
 
-      <article class="hackathon-item">
+      <article class="hackathon-item reveal" style="transition-delay:0ms">
         <div class="hackathon-meta">
           <span class="hackathon-tag">Shipped</span>
         </div>
@@ -319,7 +360,7 @@
         </div>
       </article>
 
-      <article class="hackathon-item">
+      <article class="hackathon-item reveal" style="transition-delay:80ms">
         <div class="hackathon-meta">
           <span class="hackathon-tag">Shipped</span>
         </div>
@@ -334,7 +375,7 @@
         </div>
       </article>
 
-      <article class="hackathon-item">
+      <article class="hackathon-item reveal" style="transition-delay:160ms">
         <div class="hackathon-meta">
           <span class="hackathon-tag">In progress</span>
         </div>
@@ -376,6 +417,11 @@
 <footer class="footer">
   <p>&copy; <span id="year"></span> Sriman Aryasomayajula. All rights reserved.</p>
 </footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close image">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
+</div>
 
 <script src="script.js"></script>
 </body>
